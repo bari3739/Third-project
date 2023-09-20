@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 45%;
+}
+
+.logo img{
+    width: 120px;
+    display: block;
+}
+
+.menu{
+    width: 55%;
+    text-align: center;
+}
+
+.menu h2{
+    font-size: 25px;
+    margin: 0;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.menu a{
+background-color: #fff;
+padding:8px 10px;
+display: inline-flex;
+font-size: 15px;
+text-decoration: none;
+color: blueviolet;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.AboutUs{
+    padding: 45px 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.colum_1_2{
+    width: 50%;
+}
+
+.colum_1_2 div{
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colum_1_2 h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.colum_1_2 h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    width: 300px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.colum_1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin: 0;
+    padding: 20px;
+}
+
+.content p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 580px;
+    text-align: center;
+}
+
+.content ul{
+    list-style: none;
+    padding: 5px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content li{
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.content span{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content h2{
+    font-size: 30px;
+    font-weight: 900;
+    width: 600px;
+    text-align: center;
+}
+.feature_section{
+    padding: 50px 0;
+    background: whitesmoke;
+}
+.feature_section .container{
+    justify-content: center;
+}
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.feature > div{
+    width: 50%;
+    padding: 5px;
+}
+.feature_details > div{
+    background: #8a2be2;
+    padding: 25px;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.feature > div >img{
+   aspect-ratio: 1;
+ }
+ .feature_details div h2{
+    margin: 0;
+    font-size: 26px;
+    line-height: 26px;
+ }
+ .feature_details div p{
+    margin: 0;
+    margin-top: 20px;
+ }
+ .number{
+    background: white;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 15px;
+ }
+ .number span{
+    font-size: 35px;
+    font-weight: 600;
+    color: blueviolet;
+    line-height: 35px;
+}
+
+
+
+@media  screen and (max-width: 767px ){
+    header{
+        padding: 8px 18px;
+    }
+    .logo{
+        width: 25%;
+    }
+    .menu{
+        width: 70%;
+    }
+    .menu h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .AboutUs{
+        padding: 20px 18px;
+    }
+    .colum_1_2 h1{
+        font-size: 28px;
+        line-height: 35px;
+        letter-spacing: 0;
+    }
+    .colum_1_2 h2{
+        font-size: 18px;
+    }
+    .content{
+        width: 100%;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .content ul li span{
+        font: 16px;
+    }
+
+
+
+}
